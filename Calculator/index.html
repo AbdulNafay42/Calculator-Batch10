@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Calculator</title>
+</head>
+
+<body>
+
+  <h1 class="text-center"> Calculator</h1>
+  <div class="container-fluid">
+    <div class="row">
+
+      <input class="input" id="display" >
+    </div>
+    <div class="row ">
+      <button onclick="btn('C')" class="button btn-1" id="btnClear">C</button>
+      <button onclick="btn('Ac')"   class="button btn-1" id="btnAllClear">AC</button>
+      <button onclick="btn('/')"   class="button btn-1"id="btnReminder">/</button>
+      <button onclick="btn('+')"   class="button" id="btnDivide">+</button>
+    </div>
+    <div class="row">
+      <button onclick="btn(7)"  class="button" id="btn7">7</button>
+      <button onclick="btn(8)" class="button" id="btn8" >8</button>
+      <button onclick="btn(9)" class="button" id="btn9">9</button>
+      <button onclick="btn('*')" class="button" id="btnMultiply">*</button>
+    </div>
+    <div class="row">
+      <button onclick="btn(4)" class="button" id="btn4">4</button>
+      <button onclick="btn(5)" class="button" id="btn5">5</button>
+      <button onclick="btn(6)" class="button" id="btn6">6</button>
+      <button onclick="btn('-')" class="button" id="btnSubtract">-</button>
+    </div>
+    <div class="row">
+      <button onclick="btn(1)" class="button" id="btn1">1</button>
+      <button onclick="btn(2)" class="button" id="btn2">2</button>
+      <button onclick="btn(3)" class="button" id="btn3">3</button>
+      <button onclick="btn('/')" class="button" id="btnAddition">/</button>
+    </div>
+    <div class="row">
+      <button onclick="btn(0)" class="button btn0" id="btn0">0</button>
+      <button onclick="btn('00')" class="button btn0" id="btn0">00</button>
+      <button onclick="btn('.')" class="button" id="btnDot">.</button>
+      <button onclick="btn('=')" class="button" id="btnEqual">=</button>
+    </div>
+
+  </div>
+
+
+  <script src="app2.js"></script>
+</body>
+
+</html>
+
